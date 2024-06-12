@@ -1,0 +1,227 @@
+body {
+    background-color: rgb(133, 133, 136);
+    color: rgb(248, 181, 36);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(20, 1, 46);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    display:flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(204, 192, 192);
+    font-size: larger;
+}
+
+nav ul li a:hover {
+    color: rgb(163, 198, 230);
+    font-size: 1.4rem;
+}
+
+main hr {
+    border: 0;
+    background: rgb(181, 190, 230);
+    height: 2px;
+    margin: 40px 84px;
+}
+
+.left {
+    font-size: 1.5rem;
+    transition: 1.5s;
+    color: #fdfdfd;
+   
+
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+
+}
+
+.firstSection a {
+    padding: 12px;
+    background: rgb(3, 3, 71);
+    color: rgb(255, 254, 254);
+   
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.firstSection a:hover {
+    border: 1px solid #ff9b06;
+    background: #f44336;
+    transition: 1.5s;
+    font-size: 21px;
+
+}
+
+.leftSection {
+
+    font-size: 3rem;
+    margin: 20px 20px;
+
+}
+
+
+.leftSection .buttons {
+    padding: 70px 0;
+}
+
+.firstSection>div {
+    width: 40%;
+}
+
+.rightSection {
+    background-color: none;
+}
+
+.rightSection img {
+    margin: 50px 0;
+    width: 80%;
+}
+
+.purple {
+    color: rgb(19, 6, 51);
+}
+
+#element {
+    color: rgb(19, 6, 51);
+}
+
+.gray {
+    color: rgb(201, 180, 60);
+}
+
+.SecondSection {
+    margin: auto;
+    max-width: 80vw;
+    height: 200vh;
+}
+
+.SecondSection h1 {
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.SecondSection .box {
+    background: rgb(2, 13, 75);
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.SecondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: rgb(5, 6, 48);
+    margin: 0 130px;
+}
+
+.imageTop {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+
+}
+
+.verticalTitle {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    background-color: #1f205c;
+    color: rgb(255, 217, 0);
+
+
+}
+
+.verticalDesc {
+    position: relative;
+    top: 86px;
+    color: rgb(19, 6, 51);
+    width: 150px;
+
+
+}
+
+footer {
+    background-color: rgb(17, 51, 82);
+    height: 170px;
+}
+
+.footer {
+    display: flex;
+    padding: 25px 25px;
+    justify-content: space-evenly;
+
+}
+.aboutFooter{
+    display: flex;
+    padding: 25px 25px;
+    justify-content: space-evenly;
+
+}
+
+footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 120px;
+}
+
+footer .footerRights {
+    margin: 30 30px;
+    text-align: center;
+    padding: 70 70px;
+    height: 50px;
+    background-color: rgb(17, 51, 82);
+}
+
+.seconddSection p {
+    color: #46395c;
+    padding: 100px 100px;
+    font-size: 20px;
+}
+
+.firsttSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+    height: 300px;
+    background-color: #080808;
+}
+
+.firsttSection #element {
+    color: #ebe5e5;
+    font-size: 30px;
+   
+
+}
